@@ -15,9 +15,23 @@
         android:inputType="textPersonName"
         android:text="Hi" />
 
-    <Button
-        android:id="@+id/buttonEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Send Email" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Email" />
+
+        <Button
+            android:id="@+id/buttonRP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RP" />
+    </LinearLayout>
+
 </LinearLayout>
